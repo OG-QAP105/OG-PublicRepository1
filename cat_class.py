@@ -5,7 +5,7 @@ class Cat:
 
     species = "кошка"
 
-    def __init__(self, name="", gender="", age=0):
+    def __init__(self, name, gender, age):
         self.name = name
         self.gender = gender
         self.age = age
