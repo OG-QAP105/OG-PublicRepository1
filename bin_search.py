@@ -36,7 +36,7 @@ print(my_list)
 my_number = int(input("Введите любое число в интервале от " + str(my_list[0]) + " до "
                       + str(my_list[len(my_list)-1]) + " : "))
 
-if my_low <= my_number <= my_high:
+if my_list[0] <= my_number <= my_list[my_high]:
     print("Номер позиции элемента, который меньше введенного числа, а следующий за ним больше или равен этому числу, "
           "равен:", binary_search(my_list, my_number, my_low, my_high))
 else:
