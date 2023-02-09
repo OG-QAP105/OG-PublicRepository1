@@ -68,7 +68,7 @@ my_number = digit_check(my_list, my_low, my_high)
 # и выводится результат:
 my_index = binary_search(my_list, my_number, my_low, my_high)
 
-print("\n\033[32mНомер позиции элемента списка равен:\033[37m", my_index,
+print("\n\033[32m>> Номер позиции элемента списка равен:\033[37m", my_index,
       ", \033[32mэлемент равен:\033[37m", my_list[my_index])
 
 
